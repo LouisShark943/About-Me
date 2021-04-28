@@ -1,24 +1,201 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="k27-7P-as6">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Me first-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="About_Me" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My name is Louis Baez and I  go to STEM Innocation Acacdemy of the Oranges and I am a Senior in High school" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qLH-Ze-z0Q">
+                                <rect key="frame" x="65" y="524" width="287" height="269"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Unknown" translatesAutoresizingMaskIntoConstraints="NO" id="f5u-GW-hvK">
+                                <rect key="frame" x="87" y="189" width="240" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="p9J-Y3-BuD">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="100"/>
+                                    </constraint>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                        <color key="tintColor" systemColor="tertiarySystemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qLH-Ze-z0Q" secondAttribute="trailing" constant="62" id="2hC-hP-k9t"/>
+                            <constraint firstItem="f5u-GW-hvK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="6uC-88-3N7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="f5u-GW-hvK" secondAttribute="trailing" constant="87" id="8M7-M7-hyL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qLH-Ze-z0Q" secondAttribute="bottom" constant="20" id="KnQ-eT-Ofp"/>
+                            <constraint firstItem="f5u-GW-hvK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="145" id="WBi-8Z-rGe">
+                                <variation key="heightClass=compact-widthClass=regular" constant="60"/>
+                            </constraint>
+                            <constraint firstItem="qLH-Ze-z0Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="65" id="XgM-W5-9Yx"/>
+                            <constraint firstItem="qLH-Ze-z0Q" firstAttribute="top" secondItem="f5u-GW-hvK" secondAttribute="bottom" constant="135" id="ySh-3Q-rTg">
+                                <variation key="heightClass=compact-widthClass=regular" constant="50"/>
+                            </constraint>
+                        </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Me first" id="elg-F7-g3K"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="93.75"/>
+        </scene>
+        <!--Music -->
+        <scene sceneID="S9r-vM-mAI">
+            <objects>
+                <viewController id="n7Y-Oi-RFA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ehY-7S-Kv7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="f94475230ec1d2149f32fdc799228b33" translatesAutoresizingMaskIntoConstraints="NO" id="Gyl-Bb-Y5T">
+                                <rect key="frame" x="87" y="200" width="240" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="5dx-BP-qZj"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I enjoy music very much and one of my favorite artists are bad bunny since I always enjoy his music no matter what it is. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IsM-DD-Q0E">
+                                <rect key="frame" x="45" y="546.5" width="324" height="81.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Lsx-7P-EAK"/>
+                        <color key="backgroundColor" systemColor="linkColor"/>
+                        <constraints>
+                            <constraint firstItem="Lsx-7P-EAK" firstAttribute="bottom" secondItem="IsM-DD-Q0E" secondAttribute="bottom" constant="185" id="16k-fv-hPn">
+                                <variation key="heightClass=compact-widthClass=regular" constant="35"/>
+                            </constraint>
+                            <constraint firstItem="Lsx-7P-EAK" firstAttribute="trailing" secondItem="IsM-DD-Q0E" secondAttribute="trailing" constant="45" id="NR0-SS-RY0"/>
+                            <constraint firstAttribute="trailing" secondItem="Gyl-Bb-Y5T" secondAttribute="trailing" constant="87" id="ZEw-As-5ba"/>
+                            <constraint firstItem="IsM-DD-Q0E" firstAttribute="leading" secondItem="Lsx-7P-EAK" secondAttribute="leading" constant="45" id="guW-lw-rrO"/>
+                            <constraint firstItem="Gyl-Bb-Y5T" firstAttribute="leading" secondItem="Lsx-7P-EAK" secondAttribute="leading" constant="87" id="oYf-xn-vUG"/>
+                            <constraint firstItem="Gyl-Bb-Y5T" firstAttribute="top" secondItem="ehY-7S-Kv7" secondAttribute="top" constant="200" id="u69-sX-kYV">
+                                <variation key="heightClass=compact-widthClass=regular" constant="25"/>
+                            </constraint>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Music " id="OQJ-Gh-PHp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Aov-bn-B0g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1695.6521739130435" y="93.75"/>
+        </scene>
+        <!--Anime -->
+        <scene sceneID="6aS-NU-9Ld">
+            <objects>
+                <viewController id="S0Q-ih-Ogs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l0b-nU-uPq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MV5BODcwNWE3OTMtMDc3MS00NDFjLWE1OTAtNDU3NjgxODMxY2UyXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_" translatesAutoresizingMaskIntoConstraints="NO" id="f7b-yZ-dse">
+                                <rect key="frame" x="20" y="68" width="374" height="282"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6b-n5-9fx">
+                                <rect key="frame" x="70" y="470" width="293" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">I enjoy watching anime all the time especially on my free time and my favorite ever since is one piece and it was the first anime I ever watched that got me attached. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ey1-vf-YEt"/>
+                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Anime " id="qcO-Kp-Vle"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wbT-il-ZOy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2357.971014492754" y="93.75"/>
+        </scene>
+        <!--What I dream -->
+        <scene sceneID="miK-h6-cf2">
+            <objects>
+                <viewController id="eJg-xD-x0A" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eYH-vm-Pg5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3621b7b3-8e3e-4167-9e38-da94fa9ca069-large16x9_AP20190736080736" translatesAutoresizingMaskIntoConstraints="NO" id="mjm-F2-bS9">
+                                <rect key="frame" x="87" y="153" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vpn-Gi-bgr">
+                                <rect key="frame" x="67" y="455" width="260" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">I have a dream to be able to play waht I love the most which is soccer I always love playing with the soccerball and move around. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="VDF-lG-iVh"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="What I dream " id="BBU-JS-Z2K"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SOW-CC-Uaf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3031.884057971015" y="100.44642857142857"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="bdR-cL-OYr">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="k27-7P-as6" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="YIY-TI-AfJ">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="1ke-ga-dxh"/>
+                        <segue destination="n7Y-Oi-RFA" kind="relationship" relationship="viewControllers" id="I8L-NL-oL7"/>
+                        <segue destination="S0Q-ih-Ogs" kind="relationship" relationship="viewControllers" id="dEU-Re-4ZP"/>
+                        <segue destination="eJg-xD-x0A" kind="relationship" relationship="viewControllers" id="ASm-Ll-F1z"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8sh-Wd-A8k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="93.75"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="3621b7b3-8e3e-4167-9e38-da94fa9ca069-large16x9_AP20190736080736" width="986" height="554"/>
+        <image name="MV5BODcwNWE3OTMtMDc3MS00NDFjLWE1OTAtNDU3NjgxODMxY2UyXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_" width="1064" height="1596"/>
+        <image name="Unknown" width="225" height="225"/>
+        <image name="f94475230ec1d2149f32fdc799228b33" width="704" height="1472"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
